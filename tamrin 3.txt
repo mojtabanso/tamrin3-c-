@@ -1,0 +1,20 @@
+
+            äãÑå æÑÏí í˜ ÏÇäÔÌæ ÑÇ ÎæÇäÏå æ ÈÑ ÍÓÈ ÌÏæá ÏÑ ÎÑæÌí Ç ˜äÏ
+
+            int a = int.Parse(Console.ReadLine());
+            if (a <= 10)
+                Console.WriteLine("G");
+            else
+            if (a <= 12)
+                Console.WriteLine("F");
+            else
+            if (a <= 14)
+                Console.WriteLine("C");
+            else
+            if (a <= 16)
+                Console.WriteLine("B");
+            else
+            if (a > 16)
+                Console.WriteLine("A");
+
+            Console.ReadKey();
